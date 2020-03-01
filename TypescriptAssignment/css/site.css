@@ -1,0 +1,58 @@
+body{
+    padding: 4.3em;
+}
+
+input[type=search] {
+    width: 30%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+
+}
+
+input[type=search]:focus {
+    width: 100%;
+    
+}
+
+
+.divCenter{
+    float: center   
+}
+    .divCenter label{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.0em;
+    }
+
+    .divCenter input[type=text]{
+
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        width: 100%;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+
+    input[type=submit] {
+        width: 10%;
+        height: 10%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: wheat;
+        padding: 0.5em;
+        border-radius: 1.0em;
+        background-color: red;
+    
+    }
+
+
+	
+

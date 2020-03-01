@@ -1,0 +1,47 @@
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+    <link rel="icon" type="image/png" href="student.png">
+    <script  src = 'myCompiledOutput//app.js'></script>
+    <title>Students Form</title>
+</head>
+
+<body>
+
+    <div class="divCenter">
+      
+    </div>
+
+    <div class="divCenter">
+        <form method="POST">
+            <label for="name">Student Name</label></br>
+            <input id="name" type="text" required pattern="[A-Za-z\s]{1,20}$" title="e.g. Mohit or Mohit Yadav"></br>
+            <label for="age">Student Age</label></br>
+            <input id="age" type="text" required pattern="[0-9]{1,2}$" title="e.g. 20"></br>
+            <label for="class">Class</label></br>
+            <input id="class" type="text" required pattern="[0-9a-z]{3,4}$" title="e.g. 5th "></br>
+            <label for="favSub">Fav. Subject</label></br>
+            <input id="favSub" type="text" required pattern="[a-zA-z\s]{3,20}$" title="e.g. Science"></br>
+            <label for="schlName">School</label></br>
+            <input id="schlName" type="text" required pattern="[a-zA-z\s]*$" title="e.g. Indore public school"></br>
+            <input id="submit" type="submit" value="Add"></br>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <input id="searchData" type="search" placeholder="Search students by school"></br>
+            <input id="search" type="submit" value="Search">
+        </form>
+    </div>
+
+    <div>
+        <ul id="dynamic-list"></ul>
+    </div>
+
+
+</body>
+
+</html>
